@@ -1,16 +1,16 @@
-{
-  "extends": [
+module.exports = {
+  extends: [
     "stylelint-config-standard-scss",
     "stylelint-config-standard-vue/scss"
   ],
-  "plugins": [
-    "stylelint-order"
-  ],
-  "rules": {
+  plugins: [
+		"stylelint-order"
+	],
+  rules: {
     "unit-no-unknown": [
       true,
       {
-        "ignoreUnits": ["rpx"]
+        "ignoreUnits": ['rpx']
       }
     ],
     "order/properties-order": [
